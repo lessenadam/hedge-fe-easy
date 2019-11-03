@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -10,4 +11,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.date-picker-container {
+  height: 600px;
+  padding-left: 64px;
+  align-items: center;
+  display: flex;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 16px;
+}
+
+.projection {
+  width: 400px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.projection-row {
+  display: flex;
+}
+
+.projection-show-details {
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  border: 1px solid lightgray;
+}
+
+.show-details-text {
+  color: lightskyblue;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.projection-row-section {
+  flex: 1 1 0;
+  min-width: 0;
+  border: 1px solid lightgray;
+}
+
+.projection-sub-label {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.projection-value {
+  padding: 8px;
+}
+
+.number {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.winner {
+  outline: solid green;
+}
+
+.winner-last5 {
+  outline: solid lightgreen;
+}
+
+.last5-container {
+  outline: solid lightskyblue;
 }
