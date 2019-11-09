@@ -9,7 +9,7 @@ import ResultsList from './ResultsList';
 //
 // Enter a real scoresUrl below, or use the mock data above
 //
-const scoresUrl = 'https://ec2-34-220-105-24.us-west-2.compute.amazonaws.com:8080/results';
+const scoresUrl = 'https://860xjnr2w3.execute-api.us-west-2.amazonaws.com/test/helloworld';
 
 class ResultsPage extends Component {
   state = {
